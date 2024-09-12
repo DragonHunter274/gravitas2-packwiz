@@ -1,0 +1,32 @@
+{
+    "com.direwolf20.mininggadgets.client.screens.ModificationTableScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 28,
+                "top": -5
+            },
+            "SETTINGS": {
+                "horizontalOffset": 44,
+                "top": -20
+            }
+        }
+    },
+    "com.direwolf20.mininggadgets.common.containers.ModificationTableContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.mininggadgets.client.screens.FilterScreen": {
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 44,
+                "top": -20
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 28,
+                "top": -5
+            }
+        }
+    }
+}

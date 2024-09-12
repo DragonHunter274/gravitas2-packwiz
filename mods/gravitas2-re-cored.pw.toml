@@ -1,0 +1,13 @@
+name = "Gravitas² Re-Cored"
+filename = "gregitas-core-1.0.45.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a010c66b2a9ccafa8d662a33d7b46507866ae7fd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5621875
+project-id = 971938

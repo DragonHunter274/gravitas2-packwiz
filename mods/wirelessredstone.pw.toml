@@ -1,0 +1,13 @@
+name = "Wireless Redstone"
+filename = "wirelessredstone-forge-1.20.1-1.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "916432f6854af191d0ab61e66d59bd739cd09160"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5516663
+project-id = 409660

@@ -1,0 +1,24 @@
+{
+    "net.roguelogix.biggerreactors.machine.client.CyaniteReprocessorScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 22
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 22
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 22
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 28,
+                "top": -5
+            },
+            "SETTINGS": {
+                "horizontalOffset": 44,
+                "top": -20
+            }
+        }
+    }
+}

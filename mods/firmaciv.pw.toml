@@ -1,0 +1,13 @@
+name = "Firma: Civilization (TFC)"
+filename = "FirmaCivilization-1.20.1-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c4d6c5e612ff78a5ff0f1fbf2fc18527636bcc35"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5612558
+project-id = 714158

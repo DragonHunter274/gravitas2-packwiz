@@ -1,0 +1,13 @@
+name = "Colds: Grappler & Ropes (Forge)"
+filename = "ColdGrapplerAndRopes(Forge1.20.1)vs1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c62c8c023998499050b6c2b36f9de5794a71ae1e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4781324
+project-id = 446264

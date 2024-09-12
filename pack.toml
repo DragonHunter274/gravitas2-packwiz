@@ -1,0 +1,12 @@
+name = "Gravitas2"
+version = "0.4.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e6d112480584276af38697dc5cd529f9079713d3383fe4caaadf4979a6ed90fd"
+
+[versions]
+forge = "47.3.0"
+minecraft = "1.20.1"

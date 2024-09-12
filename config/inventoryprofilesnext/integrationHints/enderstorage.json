@@ -1,0 +1,14 @@
+{
+    "codechicken.enderstorage.client.gui.GuiEnderItemStorage": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 28,
+                "top": -5
+            },
+            "SETTINGS": {
+                "horizontalOffset": 44,
+                "top": -20
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+#Mon Aug 12 13:19:37 MDT 2024
+BLOOMY_FOG=1.0
+Haze_amount=0.6
+Sky_reflection=true
+FOG_START_HEIGHT=80
+RESOURCEPACK_SKY=2
+LIT_PARTICLE_BRIGHTNESS=5.0
+RainFog_amount=1
+Night_Uniform_Fog=0.0

@@ -1,0 +1,576 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blast_furnace_to_help_make_a_different_anvil"
+	group: "20028FE0986EEEC1"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+		id: "tfc:metal/anvil/steel"
+	}
+	id: "3A953E436E706EB2"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{gravitas.quest.steel.desc.blast_furnace.1}"
+				"{gravitas.quest.steel.desc.blast_furnace.2}"
+			]
+			id: "7A77905EB8350098"
+			subtitle: "{gravitas.quest.steel.blast_furnace}"
+			tasks: [
+				{
+					id: "02239FA53229FFC6"
+					item: "tfc:blast_furnace"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "4A6C1E0FB8052EE7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "gtceu:wrought_iron_plate"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "38BBB45AE5DA35CF"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+				{
+					id: "2F7E73FE259210A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/tuyere/wrought_iron"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A77905EB8350098"]
+			id: "19C25C233BCCF44C"
+			tasks: [
+				{
+					id: "6048FAC8D6CF4EE4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/pig_iron"
+					}
+					type: "item"
+				}
+				{
+					id: "7F4567FA981346C8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/high_carbon_steel"
+					}
+					type: "item"
+				}
+				{
+					id: "553994114B1261E2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "gtceu:steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			title: "{gravitas.quest.steel.steel}"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19C25C233BCCF44C"]
+			description: ["{gravitas.quest.steel.desc.steel_anvil}"]
+			id: "568F95FC508BA84A"
+			tasks: [{
+				id: "742BF1EDAA186BEE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "tfc:metal/anvil/steel"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			description: ["{gravitas.quest.steel.desc.press}"]
+			id: "6FD65AD7EC4053EA"
+			tasks: [
+				{
+					id: "191278F77CB5444D"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "5F4B4E459111F710"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B5AC1088E738401"]
+			description: ["{gravitas.quest.steel.desc.rolling}"]
+			id: "62576168F3827DFB"
+			tasks: [{
+				id: "225FF01BEAA0C926"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6FD65AD7EC4053EA"]
+			id: "3B5AC1088E738401"
+			tasks: [{
+				id: "4D725F1C2734E966"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+					id: "gtceu:wrought_iron_plate"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6DA0C8E1B5EAF7EE"]
+			description: [
+				"{gravitas.quest.steel.desc.automate_create.1}"
+				"{gravitas.quest.steel.desc.automate_create.2}"
+			]
+			id: "3276777A888B958D"
+			tasks: [
+				{
+					id: "76A81F53AA16C28B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:rods/wrought_iron"
+						}
+					}
+					title: "Any #forge:rods/wrought_iron"
+					type: "item"
+				}
+				{
+					id: "52730C476974BCFF"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "50ABDFF0A5955B49"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+			]
+			title: "{gravitas.quest.steel.automate_create}"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7EC4991C351C49AC"]
+			id: "2D871E3A9A87DAC0"
+			tasks: [
+				{
+					id: "57F918136F31687B"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "components"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5665CF88032607C0"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "molds"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "191F9765CEA38DCB"
+					item: {
+						Count: 1
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "electrode"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{gravitas.quest.steel.blueprints}"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["679D7B1E110BE18E"]
+			id: "2F917443D6FE3081"
+			tasks: [{
+				count: 8L
+				id: "417E47D6C3A4DDBF"
+				item: "gtceu:treated_wood_planks"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "4170701E508D58B5"
+			tasks: [
+				{
+					id: "1B4B95CC48B88CA0"
+					item: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A861E5E22EF9766"
+					item: {
+						Count: 1
+						id: "immersiveengineering:wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EB2B34F41B4C17D"
+					item: "immersiveengineering:screwdriver"
+					type: "item"
+				}
+			]
+			title: "{gravitas.quest.steel.engineers_tools}"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4170701E508D58B5"]
+			hide_dependency_lines: false
+			id: "679D7B1E110BE18E"
+			tasks: [
+				{
+					count: 25L
+					id: "4D221A36C8F952DF"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+				{
+					id: "518F4E383C006EDB"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["679D7B1E110BE18E"]
+			description: ["{gravitas.quest.steel.desc.blast_brick}"]
+			id: "584E1EADFF9DB1FC"
+			tasks: [
+				{
+					count: 25L
+					id: "371BDAFC059C182F"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+				{
+					id: "1D7E21D3E7EF4BC3"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B5AC1088E738401"]
+			description: [
+				"{gravitas.quest.steel.desc.fan.1}"
+				"{gravitas.quest.steel.desc.fan.2}"
+			]
+			id: "51573373C3B8B94C"
+			tasks: [{
+				id: "6749CC9804BCAAE9"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: ["{gravitas.quest.steel.desc.kelp}"]
+			id: "6DA0C8E1B5EAF7EE"
+			tasks: [{
+				id: "117EA80A47637FFD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:leather"
+					}
+				}
+				title: "Any #forge:leather"
+				type: "item"
+			}]
+			title: "{gravitas.quest.steel.kelp}"
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3276777A888B958D"]
+			dependency_requirement: "one_started"
+			description: ["{gravitas.quest.steel.desc.funnel}"]
+			id: "2D382A55BD30B6A4"
+			tasks: [
+				{
+					id: "07ABA221C4DFF0AF"
+					item: "create:electron_tube"
+					title: "Any #forge:electron_tube"
+					type: "item"
+				}
+				{
+					id: "53E2010593D2029D"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+			]
+			title: "{gravitas.quest.steel.funnel}"
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"381A30977756A086"
+				"498E96A81E0E9DDF"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{gravitas.quest.steel.desc.paper}"]
+			id: "7EC4991C351C49AC"
+			tasks: [{
+				id: "3CA748F75183D5DD"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72A5FB46B1AF320B"]
+			description: [
+				"{gravitas.quest.steel.desc.papyrus.1}"
+				"{gravitas.quest.steel.desc.papyrus.2}"
+			]
+			id: "381A30977756A086"
+			tasks: [
+				{
+					id: "1F964A0F47706BD9"
+					item: "tfc:papyrus"
+					type: "item"
+				}
+				{
+					id: "14DFFF5FF5E234A9"
+					item: "tfc:papyrus_strip"
+					type: "item"
+				}
+				{
+					id: "58D21EA245B202F3"
+					item: "tfc:soaked_papyrus_strip"
+					type: "item"
+				}
+				{
+					id: "7962BDA878B5357F"
+					item: "tfc:unrefined_paper"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72A5FB46B1AF320B"]
+			description: ["{gravitas.quest.steel.desc.saw.1}"]
+			id: "498E96A81E0E9DDF"
+			tasks: [
+				{
+					id: "275C2FD18F4A0DE8"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "683A69E07E9C5A80"
+					item: "gtceu:wood_dust"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{gravitas.quest.steel.desc.paper_making.1}"
+				"{gravitas.quest.steel.desc.paper_making.2}"
+			]
+			id: "72A5FB46B1AF320B"
+			tasks: [{
+				id: "29775B79006C102C"
+				type: "checkmark"
+			}]
+			title: "{gravitas.quest.steel.paper_making}"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3047ACD6E16944B8"]
+			id: "376F1F47067E2622"
+			tasks: [{
+				icon: "advancedtfctech:beamhouse"
+				id: "67986CF20EE499BB"
+				observe_type: 0
+				timer: 0L
+				title: "{gravitas.quest.steel.metal_press}"
+				to_observe: "advancedtfctech:beamhouse"
+				type: "observation"
+			}]
+			title: "{gravitas.quest.steel.beam_house}"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3047ACD6E16944B8"]
+			icon: "advancedtfctech:power_loom"
+			id: "5A248CD0C63BC119"
+			tasks: [{
+				icon: "advancedtfctech:power_loom"
+				id: "2F4F2ED865610043"
+				observe_type: 0
+				timer: 0L
+				title: "{gravitas.quest.steel.crusher}"
+				to_observe: "advancedtfctech:power_loom"
+				type: "observation"
+			}]
+			title: "{gravitas.quest.steel.power_loom}"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3047ACD6E16944B8"]
+			icon: "advancedtfctech:thresher"
+			id: "6B15223880624B0B"
+			tasks: [{
+				icon: "advancedtfctech:thresher"
+				id: "1DCA8B804EADB662"
+				observe_type: 0
+				timer: 0L
+				title: "{gravitas.quest.steel.thresher}"
+				to_observe: "advancedtfctech:thresher"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3047ACD6E16944B8"]
+			id: "04927E70A3D89ADD"
+			tasks: [{
+				icon: "advancedtfctech:grist_mill"
+				id: "6BBEC58C850E2FB4"
+				observe_type: 0
+				timer: 0L
+				title: "{gravitas.quest.steel.fermenter}"
+				to_observe: "advancedtfctech:grist_mill"
+				type: "observation"
+			}]
+			title: "{gravitas.quest.steel.grist_mill}"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7EC4991C351C49AC"]
+			id: "3047ACD6E16944B8"
+			tasks: [{
+				id: "00C98DFD8CA09EC1"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+	]
+	title: "{gravitas.chapters.5.title}"
+}
