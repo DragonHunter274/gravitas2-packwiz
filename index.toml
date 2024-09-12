@@ -10389,11 +10389,6 @@ hash = "542ae1770968fa4906598cea9a30a74ccb0385b929cfc2f2b8e00665ded0f410"
 metafile = true
 
 [[files]]
-file = "mods/test.pw.toml"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-metafile = true
-
-[[files]]
 file = "mods/tfc-aged-alcohol.pw.toml"
 hash = "b072e3e60e21566afb77fcd6296f402c265e4657cdbb6429518be73baf9c39da"
 metafile = true
