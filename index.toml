@@ -9919,7 +9919,7 @@ metafile = true
 
 [[files]]
 file = "mods/distant-horizons.pw.toml"
-hash = "6dc6226c9c9cb735ff22afaede63397e4f247a7afac965b3b1ad521ac792e6a8"
+hash = "7d1b5800c7c809e30299b40a5f3cfe98f7945634dd6dc842cccc7aa01f0543b5"
 metafile = true
 
 [[files]]
@@ -10794,7 +10794,7 @@ hash = "9f39e9d738d37df46b3587e9b490c565e22318957e5cb5da86ce8770690f46fa"
 
 [[files]]
 file = "sideswitch.sh"
-hash = "814aa4a1e0fe40d8f7455e050ed0b56a6fb86ae53a04429d296b7f3f9855b55b"
+hash = "f989f57f37ca02d563fd2b14b2aa99f9dc34d1eeb145ba4b40e4043184768a8c"
 
 [[files]]
 file = "update.sh"

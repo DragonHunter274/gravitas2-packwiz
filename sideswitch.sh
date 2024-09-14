@@ -7,9 +7,6 @@ DIRECTORY="./mods"
 CLIENT_SIDE_MODS=(
     "inventory-profiles-next.pw.toml"
     "iris-flywheel-compat.pw.toml"
-    "jade.pw.toml"
-    "xaeros-minimap.pw.toml"
-    "xaeros-world-map.pw.toml"
     "no-chat-reports.pw.toml"
     "dynamiclights-reforged.pw.toml"
     "enchantment-descriptions.pw.toml"
@@ -17,6 +14,9 @@ CLIENT_SIDE_MODS=(
     "entityculling.pw.toml"
     "extreme-sound-muffler.pw.toml"
     "controlling.pw.toml"
+    "distant-horizons.pw.toml"
+    "zume.pw.toml"
+    "oculus.pw.toml"
 )
 
 # Loop through each file in the list
