@@ -10124,7 +10124,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "b42733609e3a3cee6dd9e590a512396c18ed72898665baddf884b339e3c431f2"
+hash = "c309e7c7ee8233136eca526d44d6c6b6a2411f11eb6fe0394e81df1dc6de355f"
 metafile = true
 
 [[files]]
@@ -10494,12 +10494,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "ca836b4a0035469768d4e1b8b0b3cb408ba58971e3760c877bb98a494f74d12f"
+hash = "d7c59d391361b917e0ba2f0a59a641591686c6995b4b9e6f5ac0fc7e6b95e4f4"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "15cc97e2678f44c2a5274989da624c6c4d3ef0fed497c5482d6c82a2d107083e"
+hash = "e9d60c8dd6456b72a8c7b10b052c8945d8904edf070b35d2ca67b9d83d1b2158"
 metafile = true
 
 [[files]]
