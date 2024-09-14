@@ -9839,7 +9839,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
+hash = "cf8c5f2a139a2571d0d4b8be2b7463255cca721ae4a5741ec71595b7ab530e71"
 metafile = true
 
 [[files]]
@@ -9924,7 +9924,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
-hash = "c0a18e6e3b032ec3acd26bc96f2d090f7f25a26060dae7484370585adafc9088"
+hash = "a3c18f04a002a7a0d03472c734c1146f672511d15a4ceb9d91f74e7337cb5df3"
 metafile = true
 
 [[files]]
@@ -9939,7 +9939,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "b8cccf49530803953b340152f8114c2565020824f6a00c3777634e51185ca8d9"
+hash = "ea7422a67c9ec8bfec6f893a19b353be687546721b2041a962a07cb886a7e14f"
 metafile = true
 
 [[files]]
@@ -9959,7 +9959,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "3de9fc56a1f656b20b308f462aac84aa50bd30551371137b752db21cf5091cfd"
+hash = "874e588d5dc10d1c2a1789bb4151bc17656e3a5ad23fc3b3d3363b96e635d763"
 metafile = true
 
 [[files]]
@@ -9974,7 +9974,7 @@ metafile = true
 
 [[files]]
 file = "mods/extreme-sound-muffler.pw.toml"
-hash = "a4b76d40ded1bc2bb868eeda73bdd87a45fb42b9f62d75f0b85ef516dbaa9526"
+hash = "e42c5d0fe2c09dcd37aa7222752499014b4a95ee2d78ca310d0a70664562896b"
 metafile = true
 
 [[files]]
@@ -10104,12 +10104,12 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "b6c3ce52599c7dc852d81a973f11992988ad99446452bc210743f186579104d7"
+hash = "eaa736452bf3da46fc44d67988dfb2d94700d2a5911f7b39e6a618b339115dcd"
 metafile = true
 
 [[files]]
 file = "mods/iris-flywheel-compat.pw.toml"
-hash = "a6f1034f2f82d3342aec38d6f80fdded8e022a747514ab388692c30afce4f8e9"
+hash = "27b38ca3ccd7a464959add84f03c3380743a1b134ab8ea725214223ddf8861b3"
 metafile = true
 
 [[files]]
@@ -10124,7 +10124,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "c309e7c7ee8233136eca526d44d6c6b6a2411f11eb6fe0394e81df1dc6de355f"
+hash = "b42733609e3a3cee6dd9e590a512396c18ed72898665baddf884b339e3c431f2"
 metafile = true
 
 [[files]]
@@ -10224,7 +10224,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "1d602996f39fb6103a5b968f50ec06800db7125b145570474c9c10e6dcd0c68e"
+hash = "2e69849f4e7c758808f323f559c7ea7cdc7cb2cc04de205dbe0128a34e381826"
 metafile = true
 
 [[files]]
@@ -10234,7 +10234,7 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "0663919544b1f185be64b69269f5e914d2fae910fb8ee16d4cd9549d809e71cd"
+hash = "6bb8b0848783cdf7108e499107a4991c2cee2a9240b963d427fa62b0f2a5820e"
 metafile = true
 
 [[files]]
@@ -10334,7 +10334,7 @@ metafile = true
 
 [[files]]
 file = "mods/smooth-boot-reloaded.pw.toml"
-hash = "8b001d223c2458eed8970eb699974cb73d93b75c6ceee62b5f61be85913b98ac"
+hash = "b250d533925348a91b04bf23a31fcbadfd559e8818f883e791fd7b8423ed9a3c"
 metafile = true
 
 [[files]]
@@ -10494,12 +10494,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "d7c59d391361b917e0ba2f0a59a641591686c6995b4b9e6f5ac0fc7e6b95e4f4"
+hash = "ca836b4a0035469768d4e1b8b0b3cb408ba58971e3760c877bb98a494f74d12f"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "e9d60c8dd6456b72a8c7b10b052c8945d8904edf070b35d2ca67b9d83d1b2158"
+hash = "15cc97e2678f44c2a5274989da624c6c4d3ef0fed497c5482d6c82a2d107083e"
 metafile = true
 
 [[files]]
@@ -10791,6 +10791,10 @@ hash = "bbb500f6f76e1334f497130438324e3b51c535caacd15fe1c06db9ab550c2435"
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-8.9b.zip.txt"
 hash = "9f39e9d738d37df46b3587e9b490c565e22318957e5cb5da86ce8770690f46fa"
+
+[[files]]
+file = "sideswitch.sh"
+hash = "814aa4a1e0fe40d8f7455e050ed0b56a6fb86ae53a04429d296b7f3f9855b55b"
 
 [[files]]
 file = "update.sh"
